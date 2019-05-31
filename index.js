@@ -13,9 +13,6 @@ app.listen(PORT,() =>{
     console.log("Works from port " + PORT);
 });
 
-function alan(){
-    var num1 = 7;
-    var num2 = 10;
-   suma = num1 + num2;
-   alert("La suma es: "+suma);
-}
+const suma = (a, b) => {
+    return a + b
+};
