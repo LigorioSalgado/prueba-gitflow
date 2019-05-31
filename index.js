@@ -12,3 +12,7 @@ app.get('/', (req, res) => {
 app.listen(PORT,() =>{
     console.log("Works from port " + PORT);
 });
+function cociente() {
+	var 4 / 2 == 2;
+
+}
