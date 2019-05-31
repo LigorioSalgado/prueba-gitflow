@@ -12,3 +12,7 @@ app.get('/', (req, res) => {
 app.listen(PORT,() =>{
     console.log("Works from port " + PORT);
 });
+
+const multiplication = (a, b) => {
+    return a * b
+};
