@@ -16,3 +16,12 @@ app.listen(PORT,() =>{
 const suma = (a, b) => {
     return a + b
 };
+
+
+const restar = (x,y) => {
+    return x-y;
+}
+
+const multiplication = (a, b) => {
+    return a * b
+};
