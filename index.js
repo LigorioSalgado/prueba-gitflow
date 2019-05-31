@@ -12,3 +12,7 @@ app.get('/', (req, res) => {
 app.listen(PORT,() =>{
     console.log("Works from port " + PORT);
 });
+
+const restar = (x,y) => {
+    return x-y;
+}
