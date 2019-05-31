@@ -13,6 +13,10 @@ app.listen(PORT,() =>{
     console.log("Works from port " + PORT);
 });
 
+const suma = (a, b) => {
+    return a + b
+};
+
 
 const restar = (x,y) => {
     return x-y;
