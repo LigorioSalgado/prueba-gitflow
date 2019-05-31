@@ -25,3 +25,8 @@ const restar = (x,y) => {
 const multiplication = (a, b) => {
     return a * b
 };
+
+function cociente() {
+	var 4 / 2 == 2;
+
+}
